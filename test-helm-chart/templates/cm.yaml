@@ -4,3 +4,4 @@ metadata:
   name: test-debug
 data:
   var1: {{ .Values.testvar }}
+  var2: {{ .Values.replicaCount }}
